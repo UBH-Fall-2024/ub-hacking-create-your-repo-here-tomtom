@@ -1,0 +1,89 @@
+body {
+    background-color: #8fa4a1;
+    color: #083b4f;
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-card {
+    /*background-color: #cbcfd2;*/
+    background-image: linear-gradient(#cbcfd2, #9ba0a1);
+    width: 60%;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px #2c4546;
+    text-align: center;
+}
+
+.main-card > h1 {
+    font-size: 36pt;
+    margin: 15px auto 15px 30px;
+    color: #074662;
+}
+
+.intro {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.main-split {
+    display: flex;
+}
+
+.main-split > div {
+    text-align: center;
+}
+
+.left-split {
+    flex: 6;
+    padding: 0 10px 0 20px;
+}
+
+.subhead-box {
+    margin: 0 auto;
+    background-color: #8bb8b7;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 15px;
+    font-size: 20pt;
+    margin: 10px auto;
+    transition: 0.5s;
+    text-align: left;
+}
+
+.subhead-box:hover {
+    background-color: #083b4f;
+}
+
+.info-box {
+    font-size: 16pt;
+    background-color: #d3d5d7;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto 20px auto;
+    text-align: left;
+}
+
+.info-box > ul {
+    margin: auto 0;
+}
+
+.info-box > ul > li {
+    margin-bottom: 5px;
+}
+
+.right-split {
+    flex: 5;
+    padding: 0 20px 0 10px;
+}
+
+.main-image {
+    width: 90%;
+}
+
+.upload-form {
+    font-size: 16pt;
+    margin-bottom: 5px;
+}

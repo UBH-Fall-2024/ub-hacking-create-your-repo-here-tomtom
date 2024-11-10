@@ -71,5 +71,5 @@ def process_image(path):
         return "Malignant"
 
 
-# image_path = "test_images/img.png"
-# print(process_image(image_path))
+image_path = "test_images/0000-b.jpg"
+print(process_image(image_path))
